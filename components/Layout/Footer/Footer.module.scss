@@ -1,0 +1,207 @@
+.footer {
+  padding-top: 63px;
+
+  @media all and (max-width: 1440px) {
+    padding-top: 12px;
+  }
+
+  &__border {
+    margin-bottom: 24px;
+    display: block;
+    height: 3px;
+    background: linear-gradient(
+      89.99deg,
+      #00d1ff 0%,
+      rgba(255, 34, 141, 0) 100%
+    );
+
+    @media all and (max-width: 1440px) {
+      margin-bottom: 44px;
+    }
+  }
+
+  &__inner {
+    display: flex;
+
+    @media all and (max-width: 725px) {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    @media all and (max-width: 580px) {
+      align-items: flex-start;
+    }
+  }
+
+  &__left {
+    width: 17%;
+
+    @media all and (max-width: 1440px) {
+      width: 19%;
+    }
+
+    @media all and (max-width: 1110px) {
+      width: 12%;
+    }
+
+    @media all and (max-width: 990px) {
+      width: 110px;
+      margin-right: 20px;
+    }
+
+    @media all and (max-width: 725px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: auto;
+      margin-right: 0;
+    }
+
+    @media all and (max-width: 580px) {
+      align-items: flex-start;
+    }
+  }
+
+  &__copyright {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    color: #b7bfd1;
+  }
+
+  &__right {
+    &__top {
+      display: flex;
+      align-items: center;
+      margin-bottom: 41px;
+
+      @media all and (max-width: 1440px) {
+        margin-bottom: 51px;
+      }
+
+      @media all and (max-width: 1110px) {
+        justify-content: center;
+      }
+
+      @media all and (max-width: 990px) {
+        justify-content: flex-start;
+      }
+
+      &__text {
+        margin: 0;
+        margin-right: 50px;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #f2f2f2;
+
+        @media all and (max-width: 1110px) {
+          display: none;
+        }
+      }
+    }
+
+    &__bottom {
+      &__list {
+        padding: 0;
+        margin: 0;
+        column-count: 2;
+
+        @media all and (max-width: 990px) {
+          column-count: auto;
+        }
+
+        @media all and (max-width: 725px) {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+
+      &__item {
+        @media all and (max-width: 990px) {
+          padding-top: 6px;
+          padding-bottom: 6px;
+        }
+
+        &:first-child {
+          margin-bottom: 16px;
+
+          @media all and (max-width: 1440px) {
+            margin-bottom: 21px;
+            margin-left: 93px;
+          }
+
+          @media all and (max-width: 990px) {
+            margin-left: 0;
+            margin-bottom: 0;
+          }
+        }
+
+        &:nth-child(2) {
+          @media all and (max-width: 1440px) {
+            margin-left: 6px;
+          }
+
+          @media all and (max-width: 990px) {
+            margin-left: 0;
+          }
+        }
+
+        &:nth-child(3) {
+          margin-bottom: 16px;
+          margin-left: -44px;
+
+          @media all and (max-width: 990px) {
+            margin-left: 0;
+          }
+
+          @media all and (max-width: 1440px) {
+            margin-bottom: 21px;
+            margin-left: -3px;
+          }
+
+          @media all and (max-width: 990px) {
+            margin-left: 0;
+            margin-bottom: 0;
+          }
+        }
+
+        &:nth-child(4) {
+          margin-left: -44px;
+
+          @media all and (max-width: 1440px) {
+            margin-left: -149px;
+          }
+
+          @media all and (max-width: 990px) {
+            margin-left: 0;
+          }
+        }
+
+        &__link {
+          display: block;
+          font-family: 'Montserrat';
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 18px;
+          color: #06caf9;
+
+          @media all and (max-width: 725px) {
+            width: auto;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+          }
+
+          @media all and (max-width: 580px) {
+            width: 290px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+.skills {
+  padding-top: 67px;
+  padding-bottom: 50px;
+
+  @media all and (max-width: 1080px) {
+    padding-top: 26px;
+  }
+
+  @media all and (max-width: 800px) {
+    padding-top: 0px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 102px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-top: 52px;
+
+    @media all and (max-width: 1080px) {
+      padding-top: 38px;
+      grid-row-gap: 115px;
+      grid-column-gap: 26px;
+    }
+
+    @media all and (max-width: 800px) {
+      padding-top: 4px;
+      grid-column-gap: 17px;
+      grid-row-gap: 54px;
+    }
+
+    @media all and (max-width: 485px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-row-gap: 35px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 36px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #f2f2f2;
+
+    @media all and (max-width: 1080px) {
+      font-size: 22px;
+      line-height: 28px;
+    }
+
+    @media all and (max-width: 800px) {
+      font-size: 18px;
+      line-height: 23px;
+      margin-bottom: 26px;
+      padding-top: 17px;
+    }
+
+    @media all and (max-width: 485px) {
+      margin-top: 11px;
+    }
+
+    &__text {
+      padding-left: 56px;
+    }
+
+    &__border {
+      display: block;
+      max-width: 248px;
+      height: 2px;
+      margin-top: 17px;
+      background: linear-gradient(89.99deg, #00d1ff 0%, rgba(255, 34, 141, 0) 100%);
+
+      @media all and (max-width: 1080px) {
+        margin-top: 9px;
+      }
+
+      @media all and (max-width: 800px) {
+        margin-top: 4px;
+      }
+    }
+  }
+
+  &__web {
+    background-image: url('/assets/images/svg/web.svg');
+  }
+  &__ux {
+    background-image: url('/assets/images/svg/ux.svg');
+  }
+  &__front {
+    background-image: url('/assets/images/svg/front.svg');
+  }
+  &__seo {
+    background-image: url('/assets/images/svg/seo.svg');
+  }
+
+  &__text {
+    margin: 0;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #bdbdbd;
+
+    @media all and (max-width: 1080px) {
+      font-size: 18px;
+      line-height: 23px;
+    }
+
+    @media all and (max-width: 1080px) {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+}

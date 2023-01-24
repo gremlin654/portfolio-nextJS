@@ -1,0 +1,137 @@
+.about {
+  padding-top: 140px;
+  padding-bottom: 70px;
+
+  @media all and (max-width: 1080px) {
+    padding-top: 86px;
+  }
+
+  @media all and (max-width: 800px) {
+    padding-top: 230px;
+  }
+
+  @media all and (max-width: 485px) {
+    padding-top: 0px;
+    padding-bottom: 53px;
+  }
+
+  &__sub_container {
+    padding-top: 56px;
+    display: flex;
+    align-items: flex-start;
+
+    @media all and (max-width: 1080px) {
+      padding-top: 41px;
+      padding-bottom: 27px;
+    }
+
+    @media all and (max-width: 800px) {
+      padding-top: 6px;
+      padding-bottom: 19px;
+    }
+
+    @media all and (max-width: 630px) {
+      flex-direction: column;
+    }
+  }
+
+  &__img {
+    margin-right: 32px;
+    width: 48.6%;
+    height: 48.6%;
+
+    @media all and (max-width: 1080px) {
+      width: 63%;
+      margin-right: 29px;
+    }
+
+    @media all and (max-width: 800px) {
+      width: 71%;
+      margin-right: 15px;
+    }
+
+    @media all and (max-width: 630px) {
+      width: 100%;
+      margin-right: 0;
+      height: 100%;
+      margin-bottom: 24px;
+    }
+
+    @media all and (max-width: 485px) {
+    }
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 18px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 36px;
+    color: #f2f2f2;
+
+    @media all and (max-width: 1080px) {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    @media all and (max-width: 800px) {
+      font-size: 20px;
+    }
+
+    &__border {
+      padding-top: 17px;
+      position: relative;
+      display: block;
+      height: 60px;
+
+      @media all and (max-width: 800px) {
+        padding-top: 10px;
+        height: 36px;
+      }
+
+      &__arrow {
+        position: absolute;
+        top: -12px;
+        left: -20px;
+
+        @media all and (max-width: 800px) {
+          top: -9px;
+          left: -15px;
+        }
+      }
+
+      &__line {
+        display: block;
+        height: 2px;
+        background: linear-gradient(89.99deg, #00d1ff 0%, rgba(255, 34, 141, 0) 100%);
+      }
+    }
+  }
+  &__text p {
+    margin: 0;
+    max-width: 512px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #f2f2f2;
+
+    &:nth-child(2) {
+      margin-bottom: 54px;
+
+      @media all and (max-width: 485px) {
+        margin-bottom: 18px;
+      }
+    }
+
+    @media all and (max-width: 1080px) {
+      font-size: 18px;
+      line-height: 23px;
+    }
+
+    @media all and (max-width: 800px) {
+      font-size: 16px;
+      line-height: 21px;
+    }
+  }
+}
