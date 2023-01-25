@@ -4,10 +4,10 @@ import Hero from '@/components/Hero/Hero';
 import About from '@/components/About/About';
 import Skills from '@/components/Skills/Skills';
 
-import styles from '@/styles/Home.module.scss';
 import Portfolio from '@/components/Portfolio/Portfolio';
 import Contact from '@/components/Contact/Contact';
 import Layout from '@/components/Layout/Layout';
+import { Suspense } from 'react';
 
 export default function Home() {
   return (

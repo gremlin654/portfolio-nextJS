@@ -11,23 +11,23 @@ const Skills = () => {
       <div className="sub-container">
         <ul className={styles.skills__list}>
           <SkillsItem
-            title="Веб-Разработка"
-            text="Javascript, Coffeescript, JAVA, Python, PHP, Go, Node.js, MongoDB, Redis, PostgreSQL, WebStorm."
+            title="Языки програмирования"
+            text="Javascript / TypeScript"
             iconClass={styles.skills__web}
           />
           <SkillsItem
-            title="UI/UX Дизайн"
-            text="Photoshop, Illustrator, Sketch, Axure, XMind, Прототипирование, Wireframing, Исследование Пользователей, Юзабилити-Тестирование"
-            iconClass={styles.skills__ux}
-          />
-          <SkillsItem
-            title="Разработка Frontend"
-            text="HTML, CSS, LESS, SASS, Bootstrap, Wordpress, Drupal, Phonegap / Cordova, Ionic, Foundation, Angular.js."
+            title="Навыки Front-end"
+            text="React, Redux toolkit, Next.js, HTML, CSS, SASS, Webpack, Gulp, Figma, GIT"
             iconClass={styles.skills__front}
           />
           <SkillsItem
-            title="Консалтинг и SEO-Аудит"
-            text="Screaming Frog, Woorank, Raventools, Semrush, Moz, WebCEO, Google Analytics, ChartBeat, CrazyEgg."
+            title="UI библиотеки"
+            text="Material UI, React Bootstrap "
+            iconClass={styles.skills__ux}
+          />
+          <SkillsItem
+            title="Навыки Back-end"
+            text="Node.js(Basic), Postman"
             iconClass={styles.skills__seo}
           />
         </ul>

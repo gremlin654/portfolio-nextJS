@@ -1,185 +1,86 @@
-export const portfolioItems1 = [
+export const portfolioItems = [
   {
     id: 1,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Игровой сайт «Старк»',
+    img: '/assets/images/png/site_pma.png',
+    link: 'https://pmapp-gremlin654-team.netlify.app/',
+    title: 'Вэб приложение «ToDO Manager»',
+    type: 'site',
   },
   {
     id: 2,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет магазин «Цифровой»',
+    img: '/assets/images/png/site_rs_lang.png',
+    link: 'https://rslang-gremlin654.netlify.app/',
+    title: 'Вэб приложение «Learn English»',
+    type: 'site',
   },
   {
     id: 3,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Обучающая платформа «Бризли»',
+    img: '/assets/images/png/site_portfolio.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFEPRESCHOOL/portfolio/',
+    title: 'Сайт портфолио «Фотограф»',
+    type: 'site',
   },
   {
     id: 4,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Сайт грузоперевозок «Сервис»',
+    img: '/assets/images/png/site_shelter.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFE2022Q1/shelter/pages/main/',
+    title: 'Сайт «Приют животных»',
+    type: 'site',
   },
   {
     id: 5,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет-магазин «Лампа»',
+    img: '/assets/images/png/site_tennist.png',
+    link: 'https://tennist-site.netlify.app/',
+    title: 'Сайт «Tennist»',
+    type: 'site',
   },
   {
     id: 6,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
+    img: '/assets/images/png/site_news_portal.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFE2022Q1/news-JS/',
+    title: 'Новостной портал',
+    type: 'site',
   },
-];
-
-export const portfolioItems2 = [
-  {
-    id: 1,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет магазин «Цифровой»',
-  },
-  {
-    id: 2,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Игровой сайт «Старк»',
-  },
-
-  {
-    id: 3,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Обучающая платформа «Бризли»',
-  },
-  {
-    id: 4,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Сайт грузоперевозок «Сервис»',
-  },
-  {
-    id: 5,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет-магазин «Лампа»',
-  },
-  {
-    id: 6,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
-  },
-];
-
-export const portfolioItems3 = [
-  {
-    id: 1,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Обучающая платформа «Бризли»',
-  },
-  {
-    id: 3,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Игровой сайт «Старк»',
-  },
-  {
-    id: 2,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет магазин «Цифровой»',
-  },
-
-  {
-    id: 4,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Сайт грузоперевозок «Сервис»',
-  },
-  {
-    id: 5,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет-магазин «Лампа»',
-  },
-  {
-    id: 6,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
-  },
-];
-
-export const portfolioItems4 = [
-  {
-    id: 1,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет магазин «Цифровой»',
-  },
-  {
-    id: 2,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Игровой сайт «Старк»',
-  },
-
-  {
-    id: 3,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Обучающая платформа «Бризли»',
-  },
-  {
-    id: 4,
-    img: '/assets/images/png/portfolio-img-1.png',
-    link: '#',
-    title: 'Сайт грузоперевозок «Сервис»',
-  },
-  {
-    id: 5,
-    img: '/assets/images/png/portfolio-img-2.png',
-    link: '#',
-    title: 'Интернет-магазин «Лампа»',
-  },
-  {
-    id: 6,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
-  },
-];
-
-export const hiddenPortfolioItems = [
   {
     id: 7,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
+    img: '/assets/images/png/site_virtual_keyboard.png',
+    link: 'https://gremlin654.github.io/Virtual-Keyboard/src/',
+    title: 'Вэб приложение «Virtual keyboard»',
+    type: 'other',
   },
   {
     id: 8,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
+    img: '/assets/images/png/game_tic_tac_toe.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFEPRESCHOOL/js30/tic-tac-toe/',
+    title: 'Игра «Tic-Tac-Toe»',
+    type: 'other',
   },
   {
     id: 9,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
+    img: '/assets/images/png/site__mobile_store.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFE2022Q1/online-store/',
+    title: 'Магазин телефонов',
+    type: 'other',
   },
   {
     id: 10,
-    img: '/assets/images/png/portfolio-img-3.png',
-    link: '#',
-    title: 'Музыкальный сервис «Драйв»',
+    img: '/assets/images/png/game_async_race.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFE2022Q1/async-race/',
+    title: 'Игра «AsyncRace»',
+    type: 'other',
+  },
+  {
+    id: 11,
+    img: '/assets/images/png/site_search_photo.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFEPRESCHOOL/js30/image-galery/',
+    title: 'Поиск фото',
+    type: 'other',
+  },
+  {
+    id: 12,
+    img: '/assets/images/png/site_audio_player.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFEPRESCHOOL/js30/audio-player/',
+    title: 'Вэб приложение «Audio player»',
+    type: 'other',
   },
 ];

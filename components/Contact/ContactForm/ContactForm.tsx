@@ -13,7 +13,7 @@ const ContactForm = () => {
   const [spinner, setSpinner] = useState<boolean>(false);
   const formRef = useRef() as MutableRefObject<HTMLFormElement>;
 
-  const toggleAcceptWithRules = () => setAcceptWithRules((prev) => !prev);
+  const toggleAcceptWithRules = () => setAcceptWithRules(!acceptWithRules);
 
   const SendEmail = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -36,6 +36,7 @@ const ContactForm = () => {
         }
       );
     formRef.current.reset();
+    setAcceptWithRules(false);
   };
 
   return (

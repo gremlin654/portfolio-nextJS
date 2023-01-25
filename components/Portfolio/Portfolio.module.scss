@@ -14,7 +14,9 @@
   }
 
   &__inner {
-    overflow: scroll;
+    @media all and (max-width: 675px) {
+      overflow-x: scroll;
+    }
   }
 
   &__list {
@@ -134,7 +136,11 @@
         display: block;
         margin-top: 14px;
         height: 2px;
-        background: linear-gradient(89.99deg, #5b5b5b 0%, rgba(91, 91, 91, 0) 100%);
+        background: linear-gradient(
+          89.99deg,
+          #5b5b5b 0%,
+          rgba(91, 91, 91, 0) 100%
+        );
 
         @media all and (max-width: 1080px) {
           margin-top: 7px;
@@ -145,7 +151,11 @@
         }
 
         &_active {
-          background: linear-gradient(89.99deg, #00d1ff 0%, rgba(255, 34, 141, 0) 100%);
+          background: linear-gradient(
+            89.99deg,
+            #00d1ff 0%,
+            rgba(255, 34, 141, 0) 100%
+          );
         }
       }
     }
@@ -169,6 +179,7 @@
         margin-bottom: 32px;
         width: 100%;
         object-fit: cover;
+        border-radius: 4px;
 
         &:hover {
           transform: scale(1.01);
@@ -200,7 +211,11 @@
     }
 
     &:hover &__border {
-      background: linear-gradient(89.99deg, #00d1ff 0%, rgba(255, 34, 141, 0) 100%);
+      background: linear-gradient(
+        89.99deg,
+        #00d1ff 0%,
+        rgba(255, 34, 141, 0) 100%
+      );
     }
 
     &__container {
@@ -220,7 +235,11 @@
       display: block;
       margin-top: 16px;
       height: 2px;
-      background: linear-gradient(89.99deg, #5b5b5b 0%, rgba(91, 91, 91, 0) 100%);
+      background: linear-gradient(
+        89.99deg,
+        #5b5b5b 0%,
+        rgba(91, 91, 91, 0) 100%
+      );
     }
   }
 
