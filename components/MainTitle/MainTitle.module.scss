@@ -1,5 +1,4 @@
 .title {
-  margin: 0;
   margin-bottom: 50px;
   font-family: 'Raleway';
   font-weight: 700;
@@ -22,7 +21,11 @@
     margin-top: 16px;
     display: block;
     height: 3px;
-    background: linear-gradient(89.99deg, #00d1ff 0%, rgba(255, 34, 141, 0) 100%);
+    background: linear-gradient(
+      89.99deg,
+      #00d1ff 0%,
+      rgba(255, 34, 141, 0) 100%
+    );
 
     @media all and (max-width: 800px) {
       margin-top: 9px;

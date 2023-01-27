@@ -10,7 +10,7 @@ interface IPortfolioTabItemProps {
 
 const PortfolioTabItem = ({ title, img, link }: IPortfolioTabItemProps) => (
   <div className={styles.portfolio__project__item__container}>
-    <a href={link}>
+    <a href={link} target="_blank" rel="noreferrer">
       <Image
         className={styles.portfolio__project__item__img}
         src={img}

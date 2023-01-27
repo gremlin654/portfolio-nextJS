@@ -15,9 +15,9 @@ export const portfolioItems = [
   },
   {
     id: 3,
-    img: '/assets/images/png/site_portfolio.png',
-    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFEPRESCHOOL/portfolio/',
-    title: 'Сайт портфолио «Фотограф»',
+    img: '/assets/images/png/site_tennist.png',
+    link: 'https://tennist-site.netlify.app/',
+    title: 'Сайт «Tennist»',
     type: 'site',
   },
   {
@@ -29,9 +29,9 @@ export const portfolioItems = [
   },
   {
     id: 5,
-    img: '/assets/images/png/site_tennist.png',
-    link: 'https://tennist-site.netlify.app/',
-    title: 'Сайт «Tennist»',
+    img: '/assets/images/png/site_portfolio.png',
+    link: 'https://rolling-scopes-school.github.io/gremlin654-JSFEPRESCHOOL/portfolio/',
+    title: 'Сайт портфолио «Фотограф»',
     type: 'site',
   },
   {

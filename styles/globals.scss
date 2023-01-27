@@ -18,6 +18,8 @@ ul li {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -86,6 +88,12 @@ ul li {
     background: black;
   }
 }
+#__next {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
 
 .main {
   flex-grow: 1;
@@ -131,11 +139,12 @@ ul li {
   }
 }
 
-#__next {
-  min-height: 100%;
+.error-container {
+  margin-top: 160px;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  overflow-x: hidden;
+  align-items: center;
 }
 
 .background-animation {

@@ -34,10 +34,17 @@
   }
 
   &__left {
+    display: flex;
+    column-gap: 20px;
     width: 17%;
 
     @media all and (max-width: 1440px) {
       width: 19%;
+    }
+
+    @media all and (max-width: 1150px) {
+      flex-direction: column;
+      width: 12%;
     }
 
     @media all and (max-width: 1110px) {
@@ -63,12 +70,15 @@
   }
 
   &__copyright {
-    margin: 0;
     font-family: 'Montserrat';
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
     color: #b7bfd1;
+
+    @media all and (max-width: 725px) {
+      margin-bottom: 20px;
+    }
   }
 
   &__right {
@@ -90,7 +100,6 @@
       }
 
       &__text {
-        margin: 0;
         margin-right: 50px;
         font-family: 'Montserrat';
         font-weight: 400;
@@ -106,8 +115,6 @@
 
     &__bottom {
       &__list {
-        padding: 0;
-        margin: 0;
         column-count: 2;
 
         @media all and (max-width: 990px) {

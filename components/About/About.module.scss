@@ -6,10 +6,6 @@
     padding-top: 86px;
   }
 
-  @media all and (max-width: 800px) {
-    padding-top: 230px;
-  }
-
   @media all and (max-width: 485px) {
     padding-top: 0px;
     padding-bottom: 53px;
@@ -103,7 +99,11 @@
       &__line {
         display: block;
         height: 2px;
-        background: linear-gradient(89.99deg, #00d1ff 0%, rgba(255, 34, 141, 0) 100%);
+        background: linear-gradient(
+          89.99deg,
+          #00d1ff 0%,
+          rgba(255, 34, 141, 0) 100%
+        );
       }
     }
   }

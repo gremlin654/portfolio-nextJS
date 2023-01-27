@@ -1,5 +1,5 @@
 const PolicyContent = () => (
-  <div className="container" style={{ paddingTop: 70 }}>
+  <div className="container" style={{ paddingTop: 100 }}>
     <h1>Пользовательское соглашение</h1>
     <p>
       Настоящий документ &quot;Пользовательское соглашение&quot; представляет

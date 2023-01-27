@@ -1,13 +1,4 @@
-.list__reset {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 .menuMobile {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
   position: absolute;
   display: none;
   top: 54px;
@@ -55,8 +46,6 @@
   border: none;
   width: 64px;
   height: 30px;
-  margin: 0;
-  padding: 0;
   cursor: pointer;
 
   @media all and (max-width: 640px) {

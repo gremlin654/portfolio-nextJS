@@ -8,7 +8,11 @@ interface IPortfolioSliderItemProps {
   link: string;
 }
 
-const PortfolioSliderItem = ({ title, img, link }: IPortfolioSliderItemProps) => (
+const PortfolioSliderItem = ({
+  title,
+  img,
+  link,
+}: IPortfolioSliderItemProps) => (
   <div className={styles.portfolio__slide}>
     <a className={styles.portfolio__slide__link} href={link}>
       <span className={styles.portfolio__slide__inner}>

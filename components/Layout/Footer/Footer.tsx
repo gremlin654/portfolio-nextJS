@@ -7,7 +7,7 @@ import { useMediaQuery } from '@/hooks/hooks';
 import styles from './Footer.module.scss';
 
 const Footer = () => {
-  const isMobile725 = useMediaQuery(725);
+  const isMobile485 = useMediaQuery(485);
 
   return (
     <footer className={styles.footer}>
@@ -15,7 +15,7 @@ const Footer = () => {
         <span className={styles.footer__border} />
         <div className={styles.footer__inner}>
           <div className={styles.footer__left}>
-            {isMobile725 && <SocialListFooter marginBottom={25} />}
+            {isMobile485 && <SocialListFooter marginBottom={25} />}
             <Logo marginBottom={45} />
             <p className={styles.footer__copyright}>
               © 2023 <br />
@@ -23,12 +23,6 @@ const Footer = () => {
             </p>
           </div>
           <div className={styles.footer__right}>
-            <div className={styles.footer__right__top}>
-              <p className={styles.footer__right__top__text}>
-                Поделитесь сайтом с друзьями:
-              </p>
-              {!isMobile725 && <SocialListFooter />}
-            </div>
             <div className={styles.footer__right__bottom}>
               <ul className={styles.footer__right__bottom__list}>
                 <li className={styles.footer__right__bottom__item}>

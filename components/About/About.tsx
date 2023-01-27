@@ -4,7 +4,7 @@ import { useMediaQuery } from '@/hooks/hooks';
 
 import ArrowSvg from '../ArrowSvg/ArrowSvg';
 import MainTitle from '../MainTitle/MainTitle';
-import SocialList from './SocialList/SocialList';
+import AboutList from './AboutListList/SocialList';
 import AvatarImg from '../../public/assets/images/jpg/avatar_portfolio.jpg';
 
 import styles from './About.module.scss';
@@ -39,10 +39,10 @@ const About = () => {
               это легко. Всегда к себя требователен и работаю на результат.
             </p>
           </div>
-          {!isMobile1080 && <SocialList />}
+          {!isMobile1080 && <AboutList />}
         </div>
       </div>
-      <div className="sub-container">{isMobile1080 && <SocialList />}</div>
+      <div className="sub-container">{isMobile1080 && <AboutList />}</div>
     </section>
   );
 };

@@ -28,7 +28,7 @@ const Skills = () => {
           <SkillsItem
             title="Навыки Back-end"
             text="Node.js(Basic), Postman"
-            iconClass={styles.skills__seo}
+            iconClass={styles.skills__back}
           />
         </ul>
       </div>

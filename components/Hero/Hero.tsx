@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 
-import NeonTitle from './NeonTitle/NeonTitle';
+import NeonTitle from '../NeonTitle/NeonTitle';
 
 import styles from './Hero.module.scss';
 
