@@ -6,8 +6,10 @@ const SocialListContact = () => (
   <ul className={styles.social__list}>
     <li className={styles.social__item}>
       <a
-        href="https://t.me/andrey_sidelnikov"
         className={styles.social__item__link}
+        href="https://t.me/andrey_sidelnikov"
+        target="_blank"
+        rel="noreferrer"
       >
         <span className={styles.social__item__link__text}>Telegram</span>
         <span
@@ -25,8 +27,10 @@ const SocialListContact = () => (
     </li>
     <li className={styles.social__item}>
       <a
-        href="https://linkedin.com/in/andrey-sidelnikov"
         className={styles.social__item__link}
+        href="https://linkedin.com/in/andrey-sidelnikov"
+        target="_blank"
+        rel="noreferrer"
       >
         <span className={styles.social__item__link__text}>LinkedIn</span>
         <span
@@ -44,8 +48,10 @@ const SocialListContact = () => (
     </li>
     <li className={styles.social__item}>
       <a
-        href="https://github.com/gremlin654"
         className={styles.social__item__link}
+        href="https://github.com/gremlin654"
+        target="_blank"
+        rel="noreferrer"
       >
         <span className={styles.social__item__link__text}>GitHub</span>
         <span
