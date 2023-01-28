@@ -28,7 +28,7 @@ const Header = () => {
     },
     {
       id: 4,
-      section: 'about',
+      section: 'contact',
       text: 'Обратная связь',
     },
   ];
