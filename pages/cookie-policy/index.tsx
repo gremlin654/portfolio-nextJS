@@ -9,9 +9,7 @@ export const CookiePolicy = () => (
       <title>Portfolio | Cookie Policy</title>
     </Head>
     <Layout>
-      <main className="main">
-        <PolicyContent />
-      </main>
+      <PolicyContent />
     </Layout>
   </>
 );

@@ -121,6 +121,10 @@
     background-position: center center;
     cursor: pointer;
 
+    &:hover {
+      transform: translateX(-50%) scale(1.2);
+    }
+
     @media all and (max-width: 1080px) {
       bottom: 66px;
     }

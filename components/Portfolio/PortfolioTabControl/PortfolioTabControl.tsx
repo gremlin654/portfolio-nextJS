@@ -1,4 +1,5 @@
 import ArrowSvg from '@/components/ArrowSvg/ArrowSvg';
+
 import styles from '../Portfolio.module.scss';
 
 interface IPortfolioTabControlProps {
@@ -7,7 +8,11 @@ interface IPortfolioTabControlProps {
   handler: () => void;
 }
 
-const PortfolioTabControl = ({ title, isActive, handler }: IPortfolioTabControlProps) => {
+const PortfolioTabControl = ({
+  title,
+  isActive,
+  handler,
+}: IPortfolioTabControlProps) => {
   return (
     <li className={styles.portfolio__item}>
       <button className={styles.portfolio__item__btn} onClick={handler}>

@@ -9,9 +9,7 @@ const PersonalDataPrivacy = () => (
       <title>Portfolio | Personal data privacy</title>
     </Head>
     <Layout>
-      <main className="main">
-        <PolicyContent />
-      </main>
+      <PolicyContent />
     </Layout>
   </>
 );

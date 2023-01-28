@@ -1,5 +1,5 @@
-import { title } from 'process';
 import { FC } from 'react';
+
 import styles from './MainTitle.module.scss';
 
 export type MainTitleProps = {

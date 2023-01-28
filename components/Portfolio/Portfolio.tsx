@@ -5,12 +5,15 @@ import MainTitle from '../MainTitle/MainTitle';
 import PortfolioTabControl from './PortfolioTabControl/PortfolioTabControl';
 import PortfolioTabContent from './PortfolioTabContent/PortfolioTabContent';
 import PortfolioSlider from './PortfolioSlider/PortfolioSlider';
-
-import { portfolioItems } from './PortfolioContents/portfolioContents';
+import { IProject } from '@/types/types';
 
 import styles from './Portfolio.module.scss';
 
-const Portfolio = () => {
+interface IPortfolioProps {
+  projects: IProject[] | null;
+}
+
+const Portfolio = ({ projects }: IPortfolioProps) => {
   const [tab1, setTab1] = useState<boolean>(true);
   const [tab2, setTab2] = useState<boolean>(false);
   const [tab3, setTab3] = useState<boolean>(false);
@@ -65,21 +68,17 @@ const Portfolio = () => {
         {!isMobile && (
           <>
             <ul className={styles.portfolio__project__list}>
-              {tab1 && (
+              {tab1 && projects && (
                 <PortfolioTabContent
-                  tabItems={portfolioItems.filter(
-                    (item) => item.type === 'site'
-                  )}
+                  tabItems={projects.filter((item) => item.type === 'site')}
                 />
               )}
-              {tab2 && (
+              {tab2 && projects && (
                 <PortfolioTabContent
-                  tabItems={portfolioItems.filter(
-                    (item) => item.type === 'other'
-                  )}
+                  tabItems={projects.filter((item) => item.type === 'other')}
                 />
               )}
-              {tab3 && <PortfolioTabContent tabItems={portfolioItems} />}
+              {tab3 && projects && <PortfolioTabContent tabItems={projects} />}
             </ul>
           </>
         )}
@@ -87,19 +86,17 @@ const Portfolio = () => {
       {isMobile && (
         <div className={styles.portfolio__list__mobile}>
           <div className={styles.portfolio__list__mobile__container}>
-            {tab1 && (
+            {tab1 && projects && (
               <PortfolioSlider
-                tabItems={portfolioItems.filter((item) => item.type === 'site')}
+                tabItems={projects.filter((item) => item.type === 'site')}
               />
             )}
-            {tab2 && (
+            {tab2 && projects && (
               <PortfolioSlider
-                tabItems={portfolioItems.filter(
-                  (item) => item.type === 'other'
-                )}
+                tabItems={projects.filter((item) => item.type === 'other')}
               />
             )}
-            {tab3 && <PortfolioSlider tabItems={portfolioItems} />}
+            {tab3 && projects && <PortfolioSlider tabItems={projects} />}
           </div>
         </div>
       )}

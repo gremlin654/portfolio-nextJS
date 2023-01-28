@@ -1,6 +1,7 @@
 import MainTitle from '../MainTitle/MainTitle';
-import styles from './Skills.module.scss';
 import SkillsItem from './SkillsItem/SkillsItem';
+
+import styles from './Skills.module.scss';
 
 const Skills = () => {
   return (

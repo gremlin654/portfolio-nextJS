@@ -9,9 +9,7 @@ const PrivacyPolicy = () => (
       <title>Portfolio | Privacy policy</title>
     </Head>
     <Layout>
-      <main className="main">
-        <PolicyContent />
-      </main>
+      <PolicyContent />
     </Layout>
   </>
 );

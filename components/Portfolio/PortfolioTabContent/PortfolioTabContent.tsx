@@ -1,7 +1,8 @@
 import { motion } from 'framer-motion';
 
-import styles from '../Portfolio.module.scss';
 import PortfolioTabItem from '../PortfolioTabItem/PortfolioTabItem';
+
+import styles from '../Portfolio.module.scss';
 
 interface IPortfolioTabContentProps {
   tabItems: {
@@ -23,7 +24,12 @@ const PortfolioTabContent = ({ tabItems }: IPortfolioTabContentProps) => {
           exit={{ opacity: 0 }}
           key={item.id}
         >
-          <PortfolioTabItem key={item.id} img={item.img} link={item.link} title={item.title} />
+          <PortfolioTabItem
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            title={item.title}
+          />
         </motion.li>
       ))}
     </>

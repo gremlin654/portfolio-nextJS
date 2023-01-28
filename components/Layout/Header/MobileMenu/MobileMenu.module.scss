@@ -11,7 +11,7 @@
   background: rgba(21, 36, 72, 1);
   -webkit-backdrop-filter: blur(60px);
   backdrop-filter: blur(60px);
-  transition: visability 0.3s ease-in-out, opacity 0.3 ease-in-out;
+  transition: visibility 0.3s ease-in-out, opacity 0.3 ease-in-out;
 
   @media all and (max-width: 640px) {
     display: block;
@@ -20,7 +20,7 @@
   &__open {
     opacity: 1;
     visibility: visible;
-    transition: visability 0.3s ease-in-out, opacity 0.3 ease-in-out;
+    transition: visibility 0.3s ease-in-out, opacity 0.3 ease-in-out;
   }
 
   &__item {

@@ -9,9 +9,7 @@ const PersonalDataOfClients = () => (
       <title>Portfolio | Personal data of clients</title>
     </Head>
     <Layout>
-      <main className="main">
-        <PolicyContent />
-      </main>
+      <PolicyContent />
     </Layout>
   </>
 );

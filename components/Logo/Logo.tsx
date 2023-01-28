@@ -3,7 +3,11 @@ import Link from 'next/link';
 
 import styles from './Logo.module.scss';
 
-const Logo = ({ marginBottom }: { marginBottom?: number }) => {
+interface ILogoProps {
+  marginBottom?: number;
+}
+
+const Logo = ({ marginBottom }: ILogoProps) => {
   return (
     <Link href="/">
       <Image

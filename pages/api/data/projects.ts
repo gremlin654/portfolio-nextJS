@@ -1,4 +1,4 @@
-export const portfolioItems = [
+export const projects = [
   {
     id: 1,
     img: '/assets/images/png/site_pma.png',
