@@ -8,7 +8,7 @@ const AboutList = () => {
       <div className={styles.about__item}>
         <a
           className={styles.about__item__link}
-          href="https://drive.google.com/file/d/197tpy7p5mifIYt1lVuzhL-99jqeySn28/view?usp=share_link"
+          href="https://drive.google.com/file/d/1yJ0hkgqwwtmBu8SPxPNUudIpthWR2Kx7/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >

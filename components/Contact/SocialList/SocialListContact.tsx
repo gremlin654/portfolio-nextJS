@@ -28,7 +28,7 @@ const SocialListContact = () => (
     <li className={styles.social__item}>
       <a
         className={styles.social__item__link}
-        href="https://linkedin.com/in/andrey-sidelnikov"
+        href="https://linkedin.com/"
         target="_blank"
         rel="noreferrer"
       >
